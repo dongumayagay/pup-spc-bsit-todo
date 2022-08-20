@@ -1,13 +1,13 @@
 <script>
 	import { user } from '$lib/stores.js';
 	import { goto } from '$app/navigation';
+	import { auth } from '$lib/firebaseClient.js';
+	import { signInWithEmailAndPassword } from 'firebase/auth';
 	let email = '';
 	let password = '';
 
-	function submitHandler() {
-		$user = {
-			email
-		};
+	async function submitHandler() {
+		await signInWithEmailAndPassword(auth, email, password);
 		goto('/account');
 	}
 </script>

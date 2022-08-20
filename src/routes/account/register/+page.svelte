@@ -1,13 +1,13 @@
 <script>
 	import { user } from '$lib/stores.js';
 	import { goto } from '$app/navigation';
+	import { createUserWithEmailAndPassword } from 'firebase/auth';
+	import { auth } from '$lib/firebaseClient.js';
 	let email = '';
 	let password = '';
 
-	function submitHandler() {
-		$user = {
-			email
-		};
+	async function submitHandler() {
+		await createUserWithEmailAndPassword(auth, email, password);
 		goto('/account');
 	}
 </script>
