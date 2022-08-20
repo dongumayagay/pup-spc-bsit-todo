@@ -7,8 +7,7 @@
 		<a class="" href="/">Homepage</a>
 		<a class="" href="/about">About page</a>
 		<a class="" href="/contact">contact page</a>
-		<a class="" href="/account/register">register page</a>
-		<a class="" href="/account/login">login page</a>
+		<a href="/account">account</a>
 	</nav>
 	<slot />
 </main>
