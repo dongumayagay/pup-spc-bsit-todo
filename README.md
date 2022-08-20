@@ -1,18 +1,33 @@
-# create-svelte
+# Project made from crash tutorial BSIT
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+FULLSTACK DEVELOPMENT
+from setup to deployment process with CI/CD using Vercel
 
-## Creating a project
+Techstack (FKIT)
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Firebase
+- Sveltekit
+- TailwindCSS
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Prerequisite Skills
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- HTML
+- CSS
+- JAVASCRIPT
+
+## Required Tools
+
+- NodeJS
+- Git
+- Github Account
+- Google Account
+- Vercel Account
+
+## Optional but recommended
+
+- VSCode
+- Svelte VScode Extenstion
+- TailwindCSS VScode Extenstion
 
 ## Developing
 
@@ -25,14 +40,9 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+## Further Study
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- [Svelte](https://svelte.dev/)
+- [SvelteKit](https://kit.svelte.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Firebase](https://firebase.google.com/)
