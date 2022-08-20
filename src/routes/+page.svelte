@@ -1,8 +1,6 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-
-<style>
-	h1 {
-		color: red;
-	}
-</style>
+<main class="h-screen grid place-items-center">
+	<div class="text-white">
+		<h1>Welcome to SvelteKit</h1>
+		<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+	</div>
+</main>
